@@ -12,10 +12,10 @@ cd react-textractor
 npm install
 ```
 
-> Go to [Imgur](https://api.imgur.com/) and create an account, select anonymous upload option and get the key
-> Go to [This Api](https://rapidapi.com/nadkabbani/api/ocrly-image-to-text/) and subscribe to it
-> Create a directory called `config` inside `src`
-> Add a file, called `API.js` inside it and add the following lines
+- Go to [Imgur](https://api.imgur.com/) and create an account, select anonymous upload option and get the key
+- Go to [This Api](https://rapidapi.com/nadkabbani/api/ocrly-image-to-text/) and subscribe to it
+- Create a directory called `config` inside `src`
+- Add a file, called `API.js` inside it and add the following lines
 
 ```js
 export const rapidApiKey = RAPIAPI_OCRLY_KEY;
