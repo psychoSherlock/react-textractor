@@ -7,13 +7,13 @@ function App() {
   return (
     <div className="App">
       <SnackbarProvider
-        maxSnack={3}
+        maxSnack={4}
         anchorOrigin={{
           vertical: "top",
           horizontal: "right",
         }}
         TransitionComponent={Slide}
-        autoHideDuration={3000}
+        autoHideDuration={3500}
       >
         <Nav />
         <Main />

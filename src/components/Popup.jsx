@@ -28,7 +28,9 @@ function Popup(props) {
             overflow: "auto",
           }}
         >
-          <Typography variant="h6">Here you GO!</Typography>
+          <Typography variant="h6" id="modal-modal-description">
+            Here you GO!
+          </Typography>
           <Typography
             id="modal-modal-description"
             sx={{ mt: 2, color: "#fff" }}

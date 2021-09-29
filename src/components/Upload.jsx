@@ -39,7 +39,6 @@ function Main() {
       .post("/3/image", image)
       .then((response) => {
         let imgResp = response.data.data;
-        console.log(imgResp.link, imgResp.id);
         showPopup("Image uploaded successfully", "success");
 
         extractText(imgResp);
@@ -61,7 +60,6 @@ function Main() {
         },
       })
       .then((response) => {
-        console.log(response.data);
         setdata(response.data);
         setstatus(false);
         setimage(null);
@@ -78,7 +76,6 @@ function Main() {
     imgurDelete
       .delete(`/image/${hash}`)
       .then((response) => {
-        console.log(response);
         setstatus(false);
         showPopup("Cleaning up image on the server", "info");
       })
